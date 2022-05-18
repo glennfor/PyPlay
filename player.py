@@ -66,11 +66,6 @@ class AudioPlayerControls(object):
         try:
             self.start=0
             mlen=340
-            #player_ = pyglet.media.load(self.current_song.get())
-            #p=pygame.mixer.Sound(file=self.current_song.get())
-            #mlen = player_.duration
-            #dlete it to make sure that the file wont bwe in use for playing in the necxt few lines
-            #del player_
             
             self.song_len.set(mlen)#use in the progressbar
             
